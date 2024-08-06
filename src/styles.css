@@ -1,0 +1,25 @@
+:root{
+    --background-color: #1A1C23;
+    --gray700: #1F2129;
+    --text-white: #F0F4FB;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 5rem;
+    background-color: var(--gray700);
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: var(--text-white);
+}
+li{
+    font-size: 1.25em;
+}
