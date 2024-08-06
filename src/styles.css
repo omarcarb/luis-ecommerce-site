@@ -9,17 +9,19 @@ body{
     background-color: var(--background-color);
 }
 header{
-    display: flex;
     justify-content: space-between;
     padding: 1.25rem 5rem;
     background-color: var(--gray700);
 }
 ul{
-    display: flex;
     gap: 2rem;
     list-style: none;
     color: var(--text-white);
 }
 li{
     font-size: 1.25em;
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
 }

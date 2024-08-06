@@ -2,10 +2,10 @@ import React from "react";
 
 function Header(){
     return(
-        <header>
-            <img src="" alt="" />
+        <header className="flex_row">
+            <img src="" alt=""/>
             <nav>
-                <ul>
+                <ul className="flex_row">
                     <li>Item 1</li>
                     <li>Item 2</li>
                     <li>Item 3</li>
