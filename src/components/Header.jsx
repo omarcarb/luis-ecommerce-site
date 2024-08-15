@@ -1,14 +1,23 @@
 import React from "react";
+import cart from "./icons/i_cart.svg"
+import Input from "./Input.jsx"
+import TabItem from "./TabItem.jsx";
+import logo from "./images/placeholder_logo.png"
+
 
 function Header(){
+    const tabName = ["Products", "On Sale", "About Us"];
+
     return(
         <header className="flex_row">
-            <img src="" alt=""/>
+            <img src={logo} alt="" className="logo"/>
+            <Input></Input>
             <nav>
                 <ul className="flex_row">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
+                    {tabName.map((tabName, index) => (
+                    <TabItem key={index} name={tabName} />
+                    ))}
+                    <li><img src={cart} alt="cart icon" className="icon" /></li>
                 </ul>
             </nav>
         </header>
