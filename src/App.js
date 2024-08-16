@@ -3,7 +3,9 @@ import Styles from './styles.css'
 
 function App() {
   return (
-    <Header></Header>
+    <div>
+       <Header></Header>
+    </div>
   );
 }
 

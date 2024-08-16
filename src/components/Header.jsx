@@ -6,7 +6,6 @@ import logo from "./images/placeholder_logo.png"
 
 
 function Header(){
-    const tabName = ["Products", "On Sale", "About Us"];
 
     return(
         <header className="flex_row">
@@ -14,9 +13,9 @@ function Header(){
             <Input></Input>
             <nav>
                 <ul className="flex_row">
-                    {tabName.map((tabName, index) => (
-                    <TabItem key={index} name={tabName} />
-                    ))}
+                    <TabItem name = "Products" hasIcon={true}></TabItem>
+                    <TabItem name = "On Sale" hasIcon={false}></TabItem>
+                    <TabItem name = "About Us" hasIcon={false}></TabItem>
                     <li><img src={cart} alt="cart icon" className="icon" /></li>
                 </ul>
             </nav>
