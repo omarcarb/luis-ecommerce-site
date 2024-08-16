@@ -1,11 +1,15 @@
 import React from "react";
 import search from "./icons/i_search.svg"
 
-function Input(){
+
+function Input({hasIcon}){
+    function MouseEnter(){
+    }
+
     return(
         <div className="input_container">
-            <img src={search} alt="" className="icon icon_input"/>
-            <input type="text" className="search" placeholder="Search" />
+            {hasIcon && <img src={search} alt="" className="icon icon_input"/>}    
+            <input type="text" className="search" placeholder="Search" onMouseEnter={MouseEnter}/>
         </div>
     )
 }

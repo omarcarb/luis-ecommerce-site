@@ -5,12 +5,13 @@ import TabItem from "./TabItem.jsx";
 import logo from "./images/placeholder_logo.png"
 
 
+
 function Header(){
 
     return(
         <header className="flex_row">
             <img src={logo} alt="" className="logo"/>
-            <Input></Input>
+            <Input hasIcon={true}></Input>
             <nav>
                 <ul className="flex_row">
                     <TabItem name = "Products" hasIcon={true}></TabItem>
