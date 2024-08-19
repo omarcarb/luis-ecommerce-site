@@ -8,15 +8,17 @@ function TabItem({name, hasIcon, menuItems}){
       setIsOpen(!isOpen);
     };
     return(
-        <li className="flex_row" onClick={toggleDropdown} onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>{name}{hasIcon && <img src={downArrow} alt="" className="icon"></img>}{isOpen && menuItems && (
+        <li className="nav_item flex_row" onClick={toggleDropdown}>{name}{hasIcon && <img src={downArrow} alt="" className="icon"></img>}
+        {isOpen && menuItems && (
             <ul className="dropdown-menu flex_column">
-              {menuItems.map((item, index) => (
+            {menuItems.map((item, index) => (
                 <li key={index} className="dropdown-item">
                   {item}
                 </li>
-              ))}
+            ))}
             </ul>
-          )}</li>
+        )}
+        </li>
     )
 }
 

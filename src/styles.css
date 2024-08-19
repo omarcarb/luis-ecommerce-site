@@ -77,6 +77,26 @@ input{
     position: relative;
     padding: 0rem 1rem;
 }
+.nav_item{
+    position: relative;
+    height: 32px;
+    min-width: 92px;
+    justify-content: center;
+}
+.nav_item::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    bottom: -2px;
+    background: linear-gradient(90deg, rgb(228, 238, 254) 0%, rgba(240,244,251,1) 20%, rgba(240,244,251,1) 80%, rgb(228, 238, 254) 100%);
+    border-radius:2px;
+    transition: width 200ms ease-out;
+}
+.nav_item:hover::after{
+    width: 100%;
+    transition: width 200ms ease-out;
+}
 .dropdown-menu{
     position: absolute;
     top: 100%;
