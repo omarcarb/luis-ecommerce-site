@@ -14,7 +14,7 @@ function Header(){
             <Input hasIcon={true}></Input>
             <nav>
                 <ul className="flex_row">
-                    <TabItem name = "Products" hasIcon={true}></TabItem>
+                    <TabItem name = "Products" hasIcon={true} menuItems={["Gift Ideas", "Mexican Theme", "Soup Cups"]}></TabItem>
                     <TabItem name = "On Sale" hasIcon={false}></TabItem>
                     <TabItem name = "About Us" hasIcon={false}></TabItem>
                     <li><img src={cart} alt="cart icon" className="icon" /></li>
