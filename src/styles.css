@@ -71,6 +71,16 @@ input{
     border: 2px solid #2D2F37;
     padding: 0rem 3.5rem;
     color: var(--text-white);
+
+    transition: border 200ms ease-in;
+}
+input:hover{
+    border: 2px solid #3f424c;
+
+}
+input:active, input:focus{
+    border: 3px solid #636772;
+    outline: none;
 }
 .input_container{
     width: 100%;
