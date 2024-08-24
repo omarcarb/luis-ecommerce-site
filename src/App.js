@@ -7,6 +7,7 @@ function App() {
     <div>
        <Header></Header>
        <HeroSection></HeroSection>
+       
     </div>
   );
 }
