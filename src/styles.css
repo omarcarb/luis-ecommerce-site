@@ -49,7 +49,6 @@ header{
     padding: 1.25rem 5rem;
     background-color: var(--white);
     gap: 10rem;
-    z-index: 10000;
     border-bottom: 1px solid var(--gray-200);
     margin-bottom: -1px;
 }
