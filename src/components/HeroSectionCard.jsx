@@ -7,8 +7,8 @@ function HeroSectionCard({productName, productDescription}){
             <h1>{productName}</h1>
             <p>{productDescription}</p>
             <div className="button_container">
-                <Button buttonText={"this is your mother"} buttonType="primary"></Button>
-                <Button buttonText={"This is another button"} buttonType="secondary"></Button>
+                <Button buttonText={"this is your mother"} buttonType="primary" />
+                <Button buttonText={"This is another button"} buttonType="secondary" />
             </div>
             
         </div>
