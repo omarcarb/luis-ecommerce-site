@@ -12,6 +12,12 @@ function Button({buttonText, buttonType}){
             return(
                 <button className="secondary_button">{buttonText}</button>
             )
+        break
+        case "outline":
+            return(
+                <button className="outline_button">{buttonText}</button>
+            )
+        break
     }
     
 }
