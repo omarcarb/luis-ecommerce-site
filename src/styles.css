@@ -1,19 +1,54 @@
 @import url();
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --background-color: #1A1C23;
-    --gray700: #1F2129;
-    --text-white: #F0F4FB;
+    /* primary colors */
+    --primary-color: #4C8A2F;
+    --primary-color-100: #F3FFF2;
+    --primary-color-200: #D1FDCA;
+    --primary-color-300: #ACF09B;
+    --primary-color-400: #80CE65;
+    --primary-color-600: #3A7119;
+    --primary-color-700: #2E580F;
+    --primary-color-800: #243F09;
+    --primary-color-900: #172605;
+
+    /* accent colors */
+    --accent-color: #C93C1C;
+    --accent-color-100: #FFF8F2;
+    --accent-color-200: #FED5BE;
+    --accent-color-300: #F8A987;
+    --accent-color-400: #E87550;
+    --accent-color-600: #A11C09;
+    --accent-color-700: #780A02;
+    --accent-color-800: #4F0100;
+    --accent-color-900: #260000;
+
+    /* gray colors */
+    --white: #FAFCFA;
+    --gray-200: #E8ECE8;
+    --gray-300: #D7DBD7;
+    --gray-400: #C6CBC6;
+    --gray-500: #B6BAB5;
+    --gray-600: #90958E;
+    --gray-700: #6B7069;
+    --gray-800: #474B45;
+    --gray-900: #242622;
+    --black: #141414;
+}
+*{
+    font-family: 'Poppins', sans-serif;
 }
 body{
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    background-color: var(--white);
 }
 header{
     justify-content: space-between;
     padding: 1.25rem 5rem;
-    background-color: var(--gray700);
+    background-color: var(--gray-200);
+    gap: 10rem;
 }
 nav{
     width: 35%;
@@ -21,7 +56,7 @@ nav{
 ul{
     gap: 2rem;
     list-style: none;
-    color: var(--text-white);
+    color: var(--gray-900);
     width: max-content;
 }
 li{
@@ -56,7 +91,6 @@ li{
     position: absolute;
     width: 2px;
     height: 100%;
-    background-color: #2D2F37;
     top: 0;
     left: 64px;
 }
@@ -66,17 +100,16 @@ li{
 input{
     width: calc(100% - 6rem);
     height: 2.5rem;
-    background-color: #1A1C23;
     border-radius: 8px;
-    border: 2px solid #2D2F37;
+    border: 2px solid var(--gray-400);
     padding: 0rem 3.5rem;
-    color: var(--text-white);
+    color: var(--gray-600);
+    font-weight: 600;
 
     transition: border 200ms ease-in;
 }
 input:hover{
     border: 2px solid #3f424c;
-
 }
 input:active, input:focus{
     border: 3px solid #636772;
