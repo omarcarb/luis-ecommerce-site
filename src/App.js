@@ -1,5 +1,6 @@
 import Header from './components/Header.jsx'
 import HeroSection from './components/HeroSection.jsx';
+import ProductSection from './components/ProductSections.jsx';
 import Styles from './styles.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
        <Header></Header>
        <HeroSection></HeroSection>
+       <ProductSection></ProductSection>
        
     </div>
   );
