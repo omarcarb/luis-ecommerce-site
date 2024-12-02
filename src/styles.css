@@ -77,6 +77,10 @@ h1{
     font-weight: 600;
     letter-spacing: .25rem;
 }
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 button{
     font-size: 1rem;
     font-weight: 600;
@@ -188,4 +192,16 @@ input:active, input:focus{
     padding: 2rem 256px;
     background-color: var(--primary-color-100);
     z-index: -1;
+}
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+}
+.product-card{
+    max-height: 196px;
+    & img{
+        max-height: 96px;
+    }
+    
 }
