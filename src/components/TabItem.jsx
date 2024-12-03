@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import downArrow from "./icons/i_cheveron_down_sm.svg"
 
 function TabItem({name, hasIcon, menuItems}){
     const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +7,10 @@ function TabItem({name, hasIcon, menuItems}){
       setIsOpen(!isOpen);
     };
     return(
-        <li className="nav_item flex_row" onClick={toggleDropdown}>{name}{hasIcon && <img src={downArrow} alt="" className="icon"></img>}
+        <li className="nav_item flex_row" onClick={toggleDropdown}>{name}{hasIcon && <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19 9L12 15L5 9" >
+          </path>
+        </svg>}
         {isOpen && menuItems && (
             <ul className="dropdown-menu flex_column">
             {menuItems.map((item, index) => (
