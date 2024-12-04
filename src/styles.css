@@ -83,7 +83,7 @@ h2{
 }
 svg{
     stroke: var(--gray-800);
-    stroke-width: 4px;
+    stroke-width: 3px;
     stroke-linecap: round;
     stroke-linejoin: round;
     height: 24px;
@@ -114,12 +114,12 @@ button{
     justify-content: left;
 }
 .icon{
-    max-width: 32px;
+    width: 32px;
 }
 .icon_input{
     max-width: 24px;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 1.75rem;
 }
 .input_container::after{
