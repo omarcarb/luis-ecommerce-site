@@ -1,16 +1,14 @@
 import React from "react";
-import cart from "./icons/i_cart.svg"
 import Input from "./Input.jsx"
 import TabItem from "./TabItem.jsx";
-import logo from "./images/placeholder_logo.png"
-
+import HeaderIcon from "./icons/mexicultura_icon_desktop.svg"
 
 
 function Header(){
 
     return(
         <header className="flex_row">
-            <img src={logo} alt="" className="logo"/>
+            <img src={HeaderIcon} alt="" />
             <Input hasIcon={true}></Input>
             <nav>
                 <ul className="flex_row">
