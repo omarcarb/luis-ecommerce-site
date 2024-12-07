@@ -15,7 +15,7 @@ function ProductCard({ product }){
         priceDisplay = <p className="card_price">${product.price}</p>;
     }
     return (
-        <div className="product-card">
+        <div className="product-card flex_column">
             <img src={product.image} alt={product.description} />
             <div className="card_header flex_row">
                 <h3 className="card_name">{product.product_name}</h3>

@@ -4,7 +4,7 @@
     "product_name": "Item 1",
     "price": "12.99",
     "sale_price": "10.99",
-    "description": "This is a placeholder item to test if the json data works"
+    "description": "Look at this rat. Doesnt it look cool"
 }, 
 {
     "image": "https://images.pexels.com/photos/51340/rat-pets-eat-51340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -12,7 +12,7 @@
     "product_name": "Item 2",
     "price": "123.99",
     "sale_price": "N/A",
-    "description": "This is also a placeholder item to test if the json data works"
+    "description": "Look at this rat. Doesnt it look cool"
 },
 {
     "image": "https://images.pexels.com/photos/2280794/pexels-photo-2280794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -20,7 +20,7 @@
     "product_name": "Item 3",
     "price": "35.99",
     "sale_price": "N/A",
-    "description": "This is another placeholder item to test if the json data works"
+    "description": "Look at this rat. Doesnt it look cool"
 },
 {
     "image": "https://images.pexels.com/photos/2280794/pexels-photo-2280794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -28,7 +28,7 @@
     "product_name": "Item 4",
     "price": "87.99",
     "sale_price": "N/A",
-    "description": "LALALA LILILI LOLOLO"
+    "description": "Look at this rat. Doesnt it look cool"
 },
 {
     "image": "https://images.pexels.com/photos/2664261/pexels-photo-2664261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -36,5 +36,5 @@
     "product_name": "Item 5",
     "price": "7.99",
     "sale_price": "N/A",
-    "description": "Oh look, another rat picture"
+    "description": "Look at this rat. Doesnt it look cool"
 }]
