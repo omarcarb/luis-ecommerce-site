@@ -3,11 +3,11 @@ import productData from "./product_data.json";
 import ProductCard from "./ProductCard";
 
 
-function ProductSection(){
+function ProductSection({sectionHeader}){
     const product = productData[0] 
     return(
         <section>
-            <h2>Recommended</h2>
+            <h2>{sectionHeader}</h2>
             <div className="product-list">
                 {productData.map((product, index) => (
                     <ProductCard key={index} product={product} />

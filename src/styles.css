@@ -257,3 +257,9 @@ input:active, input:focus{
 .price_group{
     gap: .5rem;
 }
+.promotional_section{
+    gap: 4rem;
+}
+.promotional_image{
+    max-height: 400px;
+}
