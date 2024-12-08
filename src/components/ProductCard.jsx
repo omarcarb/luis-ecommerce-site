@@ -4,7 +4,7 @@ import Button from "./Button";
 function ProductCard({ product }){
     let priceDisplay;
 
-    if (product.onsale === "true") {
+    if (product.onsale === true) {
         priceDisplay = (
             <>
                 <p className="card_price_original">${product.price}</p>

@@ -1,40 +1,126 @@
-[{
-    "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "onsale": "true",
-    "product_name": "Item 1",
-    "price": "12.99",
-    "sale_price": "10.99",
-    "description": "Look at this rat. Doesnt it look cool"
-}, 
-{
-    "image": "https://images.pexels.com/photos/51340/rat-pets-eat-51340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "onsale": "false",
-    "product_name": "Item 2",
-    "price": "123.99",
-    "sale_price": "N/A",
-    "description": "Look at this rat. Doesnt it look cool"
-},
-{
-    "image": "https://images.pexels.com/photos/2280794/pexels-photo-2280794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "onsale": "false",
-    "product_name": "Item 3",
-    "price": "35.99",
-    "sale_price": "N/A",
-    "description": "Look at this rat. Doesnt it look cool"
-},
-{
-    "image": "https://images.pexels.com/photos/2280794/pexels-photo-2280794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "onsale": "false",
-    "product_name": "Item 4",
-    "price": "87.99",
-    "sale_price": "N/A",
-    "description": "Look at this rat. Doesnt it look cool"
-},
-{
-    "image": "https://images.pexels.com/photos/2664261/pexels-photo-2664261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "onsale": "false",
-    "product_name": "Item 5",
-    "price": "7.99",
-    "sale_price": "N/A",
-    "description": "Look at this rat. Doesnt it look cool"
-}]
+[
+    {
+      "id": "p001",
+      "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "onsale": true,
+      "product_name": "Item 1",
+      "price": 12.99,
+      "sale_price": 10.99,
+      "description": "Look at this rat. Doesn't it look cool.",
+      "tags": ["rat", "cool", "pet"],
+      "variants": [
+        {
+          "color": "gray",
+          "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "p002",
+      "image": "https://images.pexels.com/photos/51340/rat-pets-eat-51340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "onsale": false,
+      "product_name": "Item 2",
+      "price": 123.99,
+      "sale_price": null,
+      "description": "Look at this rat. Doesn't it look cool.",
+      "tags": ["rat", "fancy", "rare"],
+      "variants": []
+    },
+    {
+      "id": "p003",
+      "image": "https://images.pexels.com/photos/2280794/pexels-photo-2280794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "onsale": false,
+      "product_name": "Item 3",
+      "price": 35.99,
+      "sale_price": null,
+      "description": "Look at this rat. Doesn't it look cool.",
+      "tags": ["rat", "tiny", "adorable"],
+      "variants": []
+    },
+    {
+      "id": "p004",
+      "image": "https://images.pexels.com/photos/2280794/pexels-photo-2280794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "onsale": false,
+      "product_name": "Item 4",
+      "price": 87.99,
+      "sale_price": null,
+      "description": "Look at this rat. Doesn't it look cool.",
+      "tags": ["rat", "big", "friendly"],
+      "variants": []
+    },
+    {
+      "id": "p005",
+      "image": "https://images.pexels.com/photos/2664261/pexels-photo-2664261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "onsale": false,
+      "product_name": "Item 5",
+      "price": 7.99,
+      "sale_price": null,
+      "description": "Look at this rat. Doesn't it look cool.",
+      "tags": ["rat", "playful", "cute"],
+      "variants": []
+    },
+    {
+        "id": "p001",
+        "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "onsale": true,
+        "product_name": "Item 1",
+        "price": 12.99,
+        "sale_price": 10.99,
+        "description": "Look at this rat. Doesn't it look cool.",
+        "tags": ["rat", "cool", "pet"],
+        "variants": [
+          {
+            "color": "gray",
+            "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg"
+          }
+        ]
+    },
+    {
+        "id": "p001",
+        "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "onsale": true,
+        "product_name": "Item 1",
+        "price": 102.99,
+        "sale_price": 38.99,
+        "description": "Look at this rat. Doesn't it look cool.",
+        "tags": ["rat", "cool", "pet"],
+        "variants": [
+          {
+            "color": "gray",
+            "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg"
+          }
+        ]
+    },
+    {
+        "id": "p001",
+        "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "onsale": true,
+        "product_name": "Item 1",
+        "price": 17.99,
+        "sale_price": 8.99,
+        "description": "Look at this rat. Doesn't it look cool.",
+        "tags": ["rat", "cool", "pet"],
+        "variants": [
+          {
+            "color": "gray",
+            "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg"
+          }
+        ]
+    },
+    {
+        "id": "p001",
+        "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "onsale": true,
+        "product_name": "Item 1",
+        "price": 180.99,
+        "sale_price": 70.99,
+        "description": "Look at this rat. Doesn't it look cool.",
+        "tags": ["rat", "cool", "pet"],
+        "variants": [
+          {
+            "color": "gray",
+            "image": "https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg"
+          }
+        ]
+    }
+  ]

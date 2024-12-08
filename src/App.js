@@ -11,9 +11,9 @@ function App() {
       <Header></Header>
       <HeroSection></HeroSection>
       <CategorySection></CategorySection>
-      <ProductSection sectionHeader={"Recommended"}></ProductSection>
+      <ProductSection sectionHeader={"Recommended"} isSale={false}></ProductSection>
       <Promotional index ={0} reverse ={"false"}></Promotional>
-      <ProductSection sectionHeader={"On Sale"}></ProductSection>
+      <ProductSection sectionHeader={"On Sale"} isSale={true}></ProductSection>
       <Promotional index={1} reverse ={"true"}></Promotional>
     </div>
   );
