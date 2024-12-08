@@ -75,11 +75,16 @@ li{
 h1{
     font-size: 4rem;
     font-weight: 600;
-    letter-spacing: .25rem;
+    letter-spacing: .05rem;
+    margin: 0;
 }
 h2{
     font-size: 1.5rem;
     font-weight: 600;
+}
+p{
+    font-weight: 500;
+    margin: 0;
 }
 svg{
     stroke: var(--gray-800);
@@ -218,6 +223,16 @@ input:active, input:focus{
     padding: 2rem 256px;
     background-color: var(--primary-color-100);
     z-index: -1;
+}
+#hero_text{
+    gap: 2rem;
+    & #text_group{
+        gap: 1rem;
+        margin: 0;
+    }
+}
+#hero_image{
+    height: 30rem;
 }
 #category_scrollers{
     justify-content: space-between;
