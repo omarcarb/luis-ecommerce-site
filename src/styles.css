@@ -240,7 +240,7 @@ input:active, input:focus{
 }
 .category_button{
     text-align: center;
-    gap: 0rem;
+    gap: .5rem;
     & p{
         font-weight: 600;
         color: var(--gray-700);
