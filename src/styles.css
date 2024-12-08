@@ -222,7 +222,7 @@ input:active, input:focus{
     justify-content: left;
     gap: 8rem;
     padding: 2rem 256px;
-    background-color: var(--primary-color-100);
+    background-color: var(--primary-color-200);
     z-index: -1;
 }
 #hero_text{
