@@ -9,7 +9,7 @@ function Header(){
     return(
         <header className="flex_row">
             <img src={HeaderIcon} alt="" />
-            <Input hasIcon={true}></Input>
+            <Input hasIcon={true} className='search' placeholderText={"Search..."}></Input>
             <nav>
                 <ul className="flex_row">
                     <TabItem name = "Products" hasIcon={true} menuItems={["Gift Ideas", "Mexican Theme", "Soup Cups"]}></TabItem>
