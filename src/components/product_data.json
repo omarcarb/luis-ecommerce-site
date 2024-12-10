@@ -60,7 +60,7 @@
       "variants": []
     },
     {
-        "id": "p001",
+        "id": "p006",
         "image": "https://images.pexels.com/photos/26158919/pexels-photo-26158919/free-photo-of-photo-of-a-rat-with-a-piece-of-bread.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "onsale": true,
         "product_name": "Item 6",
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "id": "p001",
+        "id": "p007",
         "image": "https://images.pexels.com/photos/15106521/pexels-photo-15106521/free-photo-of-cute-mouse-near-christmas-decoration-in-studio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "onsale": true,
         "product_name": "Item 6",
@@ -92,7 +92,7 @@
         ]
     },
     {
-        "id": "p001",
+        "id": "p008",
         "image": "https://images.pexels.com/photos/26158917/pexels-photo-26158917/free-photo-of-white-rat-against-a-black-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "onsale": true,
         "product_name": "Item 7",
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "id": "p001",
+        "id": "p009",
         "image": "https://images.pexels.com/photos/1010268/pexels-photo-1010268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "onsale": true,
         "product_name": "Item 8",

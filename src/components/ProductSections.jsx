@@ -1,6 +1,7 @@
 import React from "react";
 import productData from "./product_data.json";
 import ProductCard from "./ProductCard";
+import Button from "./Button";
 
 
 function ProductSection({sectionHeader, isSale}){
@@ -8,7 +9,11 @@ function ProductSection({sectionHeader, isSale}){
 
     return(
         <section>
-            <h2>{sectionHeader}</h2>
+            <div className="flex_row header_section">
+                <h2>{sectionHeader}</h2>
+                <Button buttonType="outline" buttonText={"See All"}></Button>
+            </div>
+            
             <div className="product-list">
                 {filteredProducts.length > 0 ? (
                     filteredProducts.map((product, index) => (
