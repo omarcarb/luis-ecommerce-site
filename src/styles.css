@@ -183,7 +183,7 @@ input{
     padding: 0rem 3.5rem;
     max-width: 100%;
 }
-input::placeholder{
+input::placeholder, #message_box::placeholder{
     font-weight: 500;
     font-style: italic;
     color: var(--gray-400);
@@ -317,4 +317,19 @@ input:active, input:focus{
 }
 .input_group{
     gap: .5rem;
+}
+#message_box{
+    height: 4rem;
+    border-radius: 8px;
+    outline: 2px solid var(--gray-400);
+    border: none;
+    padding: .5rem 1rem;
+    color: var(--gray-700);
+    font-weight: 500;
+    font-size: 1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;         
+
+    transition: outline 300ms ease-in;
 }

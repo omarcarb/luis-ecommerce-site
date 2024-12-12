@@ -4,6 +4,7 @@ import ProductSection from './components/ProductSections.jsx';
 import CategorySection from './components/CategorySections.jsx';
 import Promotional from "./components/Promotional.jsx"
 import ContactForm from './components/ContactForm.jsx';
+import Footer from './components/Footer.jsx';
 import Styles from './styles.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <ProductSection sectionHeader={"On Sale"} isSale={true}></ProductSection>
       <Promotional index={1} reverse ={"true"}></Promotional>
       <ContactForm></ContactForm>
+      <Footer></Footer>
     </div>
   );
 }

@@ -20,7 +20,7 @@ function ContactForm(){
                 </div>
                 <div className="input_group flex_column">
                     <label htmlFor="messages">Message</label>
-                    <Input hasIcon={false} placeholderText={'Type Here...'} name='messages' className={'message_box'}></Input>
+                    <textarea name="messages" id="message_box" placeholder="Type your message here..."></textarea>
                 </div>
             </div>
         </section>
