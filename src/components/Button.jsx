@@ -18,6 +18,11 @@ function Button({buttonText, buttonType}){
                 <button className="outline_button">{buttonText}</button>
             )
         break
+        case "borderless":
+            return(
+                <button className="borderless_button">{buttonText}</button>
+            )
+        break
     }
     
 }

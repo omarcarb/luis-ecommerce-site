@@ -9,7 +9,7 @@ function HeroSectionCard({productName, productDescription}){
                 <p>{productDescription}</p>
             </div>
             <div className="button_container">
-                <Button buttonText={"Buy Now"} buttonType="primary" />
+                <Button buttonText={"Learn More"} buttonType="primary" />
             </div>
             
         </div>

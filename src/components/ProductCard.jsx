@@ -16,15 +16,17 @@ function ProductCard({ product }){
     }
     return (
         <div className="product-card flex_column">
-            <img src={product.image} alt={product.description} />
-            <div className="card_header flex_row">
-                <h3 className="card_name">{product.product_name}</h3>
-                <div className="price_group flex_row">
-                    {priceDisplay}
+            <img src={product.image} alt={product.description}/>
+            <div className="card_text flex_column">
+                <div className="card_header flex_row">
+                    <h3 className="card_name">{product.product_name}</h3>
+                    <div className="price_group flex_row">
+                        {priceDisplay}
+                    </div>
                 </div>
+                <p className="card_description">{product.description}</p>
+                <Button buttonText={"Add To Cart"} buttonType="outline"></Button>
             </div>
-            <p className="card_description">{product.description}</p>
-            <Button buttonText={"Add To Cart"} buttonType="primary"></Button>
         </div>
     );
 }
