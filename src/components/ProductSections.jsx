@@ -1,11 +1,23 @@
 import React from "react";
+import { useState } from "react";
 import productData from "./product_data.json";
 import ProductCard from "./ProductCard";
 import Button from "./Button";
 
 
 function ProductSection({sectionHeader, isSale}){
-    const filteredProducts = productData.filter(product => isSale ? product.onsale : !product.onsale).slice(0, 4 || productData.length);
+    const screenSize = CheckScreenSize();
+    let maxGridSize;
+    
+    if(screenSize>= '1640'){
+        maxGridSize = 4;
+    }
+    else if(screenSize>= '1040'){
+        maxGridSize = 3;
+    }
+    
+
+    const filteredProducts = productData.filter(product => isSale ? product.onsale : !product.onsale).slice(0, maxGridSize || productData.length);
 
     return(
         <section>
@@ -25,6 +37,12 @@ function ProductSection({sectionHeader, isSale}){
             </div>
         </section>
     )
+}
+
+function CheckScreenSize(){
+    const [width, setWidth]= useState(window.innerWidth);
+
+    return width
 }
 
 export default ProductSection;
