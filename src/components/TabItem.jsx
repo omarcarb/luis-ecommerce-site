@@ -26,7 +26,7 @@ function TabItem({name, hasIcon, menuItems}){
         {isOpen && menuItems && (
           <ul className="dropdown-menu flex_column">
             {menuItems.map((item, index) => (
-              <li key={index} className="dropdown-item">
+              <li key={index} className="dropdown_item">
                 {item}
               </li>
             ))}
